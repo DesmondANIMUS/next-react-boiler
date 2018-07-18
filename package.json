@@ -1,0 +1,39 @@
+{
+  "name": "next-react-boiler",
+  "version": "1.0.0",
+  "description": "A simple boiler plate code for nextjs apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "next"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DesmondANIMUS/next-react-boiler.git"
+  },
+  "keywords": [
+    "nextjs",
+    "reactjs",
+    "eslint",
+    "boilerplate",
+    "prettier"
+  ],
+  "author": "DesmondANIMUS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DesmondANIMUS/next-react-boiler/issues"
+  },
+  "homepage": "https://github.com/DesmondANIMUS/next-react-boiler#readme",
+  "dependencies": {
+    "next": "^6.1.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-flowtype": "^2.50.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.10.0",
+    "prettier": "^1.13.7"
+  }
+}
