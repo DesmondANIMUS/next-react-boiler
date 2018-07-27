@@ -10,5 +10,5 @@ All the core components are setup and ready to use.
 Before cloning please be generous. Star & Fork my repo ^.^
 1. Clone or Download repo
 2. npm install
-3. npm run dev
+3. npm start
 4. enjoy
