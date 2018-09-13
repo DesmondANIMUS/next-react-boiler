@@ -16,7 +16,6 @@
     },
     "env": {
         "es6": true,
-        "browser": true,
         "node": true
     },
     "rules": {
@@ -39,6 +38,7 @@
         "linebreak-style": [
             "error",
             "unix"
-        ]
+        ],
+        "react/jsx-indent": 0
     }
 }
