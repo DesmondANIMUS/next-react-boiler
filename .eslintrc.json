@@ -1,10 +1,10 @@
 {
     "extends": [
         "airbnb",
-        "prettier",
-        "prettier/react"
+        "prettier"
     ],
     "plugins": [
+        "flowtype",
         "prettier"
     ],
     "parserOptions": {
@@ -20,6 +20,14 @@
         "node": true
     },
     "rules": {
+        "prettier/prettier": [
+            "error",
+            {
+                "trailingComma": "es5",
+                "singleQuote": false,
+                "printWidth": 120
+            }
+        ],
         "quotes": [
             "error",
             "double"
@@ -27,6 +35,10 @@
         "semi": [
             "error",
             "always"
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
         ]
     }
 }
