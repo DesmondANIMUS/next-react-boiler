@@ -1,13 +1,14 @@
 {
     "extends": [
-        "prettier"
+        "airbnb",
+        "prettier",
+        "prettier/react"
     ],
     "plugins": [
-        "flowtype",
-        "react",
         "prettier"
     ],
     "parserOptions": {
+        "ecmaVersion": 2018,
         "sourceType": "module",
         "ecmaFeatures": {
             "jsx": true
@@ -15,16 +16,17 @@
     },
     "env": {
         "es6": true,
+        "browser": true,
         "node": true
     },
     "rules": {
-        "prettier/prettier": [
+        "quotes": [
             "error",
-            {
-                "trailingComma": "es5",
-                "singleQuote": true,
-                "printWidth": 120
-            }
+            "double"
+        ],
+        "semi": [
+            "error",
+            "always"
         ]
     }
 }
